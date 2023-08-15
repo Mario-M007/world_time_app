@@ -10,33 +10,7 @@ class ChooseLocation extends StatefulWidget {
 
 class _ChooseLocationState extends State<ChooseLocation> {
   
-  // int counter = 0;
-  
-  // void getData() async {
-  //   // simulate network request for a username
 
-  //   String username = await Future.delayed(Duration(seconds: 3), (){
-  //     return "Mario";
-  //   });
-
-  //   // simulate network request to get bio of the username
-  //   String bio = await Future.delayed(Duration(seconds: 2), (){
-  //     return "mushroom lover";
-  //   });
-
-  //   print("statement");
-  //   print("${username} - ${bio}");
-
-  // }
-
-
-  // @override
-  // void initState() {
-  //   // TODO: implement initState
-  //   super.initState();
-  //   getData();
-  //   print("initState func ran");
-  // }
   
   List<WorldTime> locations = [
     WorldTime(url: 'Asia/Beirut', location: 'Beirut', flag: 'lebanon.png'),
